@@ -12,7 +12,7 @@
   </head>
   <body>
   <h2>Product Discount Calculator</h2>
-  <form method="post" action="${pageContext.request.contextPath}/display-discount">
+  <form method="post" action="display-discount">
     <input type="text" name="Product Description: " placeholder="Product name or series">
     <input type="text" name="List Price: " placeholder="Price">
     <input type="submit" id="submit" value="Calculate Discount ">
